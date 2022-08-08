@@ -10,7 +10,8 @@ function App() {
   });
   return (
     <div className="App">
-      <h1 style={{ color: `rgb(${r} ,${g} ,${b})` }}>HEllo bro</h1>
+      <h1 style={{ color: `rgb(${r} ,${g} ,${b})` }}>Change Color</h1>
+      rgb({r} ,{g} ,{b}){" "}
       <div>
         R<button onClick={() => disporch({ type: "INCREMENT_R" })}>+</button>
         <button onClick={() => disporch({ type: "DICREMENT_R" })}>-</button>

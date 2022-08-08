@@ -1,4 +1,4 @@
-const reducer = (state, { type, payload = 50 }) => {
+const reducer = (state, { type, payload = 10 }) => {
   const limitRGB = (num) => (num < 0 ? 0 : num > 225 ? 225 : num);
   switch (type) {
     case "INCREMENT_R":
